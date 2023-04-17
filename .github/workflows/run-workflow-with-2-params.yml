@@ -5,3 +5,4 @@ jobs:
     uses: tst-mgmt/action-test/.github/workflows/workflow-6-reusable-with-2-params.yml@main
     with:
       some-input: Some input param from calling workflow.
+      input-2: Adding back in text for input 2
