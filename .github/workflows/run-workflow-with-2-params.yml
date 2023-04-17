@@ -2,6 +2,7 @@ name: call-a-workflow-with-2-params
 on: [workflow_dispatch]
 jobs:
   call-a-workflow-with-params:
-    uses: tst-mgmt/action-test/.github/workflows/workflow-5-reusable-with-params.yml@main
+    uses: tst-mgmt/action-test/.github/workflows/workflow-6-reusable-with-2-params.yml@main
     with:
       some-input: Some input param from calling workflow.
+      input-2: some text for input 2
